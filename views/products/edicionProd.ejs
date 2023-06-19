@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMIGURUMIS    </title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/997049d577.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+<header class = "top-header"> 
+    <a href="#main">ir al contenido principal </a>
+    <div class = "logoybarra">
+    <img src="../images/logo_chaltu_bags.jpg" class = "logo"  alt="logo">
+    <h1>
+       AMIGURUMIS
+    </h1>
+    
+    <div class="form" action="#" method="GET" role="search">
+        <div class="input">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt eaque aperiam? Sint quae, quidem accusamus praesentium, cum suscipit aperiam fugiat necessitatibus atque maiores dolorum in magnam ab dicta tempore?<i class="fa fa-search"></i></div>
+      </i>
+    </div>
+    <h2>
+        <div class="compraencuotas"> <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y con tarjeta de crédito de todos los bancos</div>
+    </h2>
+    </div>
+
+       
+
+<%- include("../partial/navbar") -%>
+</header>
+
+<main> 
+
+<div class="tituloform">
+<h2 class="titulo"> Completa tus datos</h2> 
+
+    <form class="listadoform"  action = "/<%=editProduct.id %>?_method=PATCH" method = "POST">
+
+                <div>
+                  <label for="imagen">Imagen</label>
+                  <input value = "<%= editProduct.imagen %>" type="file" id="imagen" name="imagen" >
+                </div> 
+      
+                <div>
+                  <label for="articulo"> Articulo:</label>
+                  <input value = "<%= editProduct.articulo %>" type="text" id="articulo" name="articulo" required autofocus>
+                </div>        
+       
+               <div>
+                <label for="modelo">Modelo</label>
+                <input value = "<%= editProduct.modelo %>" type="text" id="modelo" name="modelo" required>
+              </div>
+              <textarea name="descripcion" id="descripcion" placeholder="ingrese la descripción de su producto "  cols="50" rows="5" ><%= editProduct.descripcion %>  </textarea>
+
+              <div>
+                <label for="precio">Precio</label>
+                <input value = "<%= editProduct.precio %>" type="text" id="precio" name="precio" required>
+              </div>
+       
+        </div>
+
+             <div >
+                  <br> 
+                   <div >
+                      <input type="submit" value="Actualizar" class = "boton">
+                   </div>
+
+                         
+                   
+                   <div>
+                     <a href = "/products/<%=editProduct.id%>"><button class = "boton">Regresar</button></a>
+                   </div>
+            </div> 
+                       
+    </form>
+  </main>
+  <%- include("../partial/footer") -%>
+</body>
+</html>

@@ -1,0 +1,81 @@
+[
+ {
+  "imagen": "UNO",
+  "articulo": "UNO ",
+  "modelo": "UNO",
+  "descripcion": "LOREM ",
+  "precio": "COP $ 30.000",
+  "id": "1"
+ },
+ {
+  "imagen": "",
+  "articulo": "DOS",
+  "modelo": "DOS",
+  "descripcion": "DOS",
+  "precio": "COP $ 30.000",
+  "id": "2"
+ },
+ {
+  "imagen": "",
+  "articulo": "TRES ",
+  "modelo": "TRES",
+  "descripcion": "TRES",
+  "precio": "COP $ 30.000",
+  "id": "3"
+ },
+ {
+  "imagen": "",
+  "articulo": "CUATRO",
+  "modelo": "CUATRO",
+  "precio": "COP $ 30.000",
+  "id": "4"
+ },
+ {
+  "imagen": "",
+  "articulo": "CINCO",
+  "modelo": "CINCO",
+  "descripcion": "CINCO",
+  "precio": "COP $ 30.000",
+  "id": "5"
+ },
+ {
+  "imagen": "",
+  "articulo": "SEIS",
+  "modelo": " ",
+  "descripcion": " ",
+  "precio": "COP $ 30.000",
+  "id": "6"
+ },
+ {
+  "imagen": "",
+  "articulo": "SIETE",
+  "modelo": " ",
+  "descripcion": " ",
+  "precio": "COP $ 30.000",
+  "id": "7"
+ },
+ {
+  "imagen": "",
+  "articulo": "OCHO ",
+  "modelo": " ",
+  "descripcion": " ",
+  "precio": "COP $ 30.000",
+  "id": "8"
+ },
+ {
+  "imagen": "",
+  "articulo": "NUEVE",
+  "modelo": " ",
+  "descripcion": "  ",
+  "precio": "COP $ 30.000",
+  "id": "9"
+ },
+ {
+  "id": 10,
+  "imagen": "",
+  "articulo": "SOBRECITO",
+  "modelo": "AZUL VERDE",
+  "descripcion": "amigurumi cartero",
+  "precio": "40000"
+ }
+]

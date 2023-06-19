@@ -1,2 +1,1 @@
-# amigurumis
-amigurumis mariace
+AMIGURUMIS

@@ -1,0 +1,69 @@
+[
+ {
+  "imagen": "",
+  "articulo": "AMIGURUMI PAVOREAL ",
+  "modelo": "VERDE",
+  "descripcion": "SE PUEDE REALIZAR EN TONOS DE VERDE  ",
+  "precio": "COP $ 30.000",
+  "id": "1"
+ },
+ {
+  "imagen": "",
+  "articulo": "AMIGURUMI LEON",
+  "modelo": "ANIMALES SALVAJES",
+  "descripcion": "PUEDEN VARIAR EN TAMAÑOS ",
+  "precio": "COP $ 30.000"
+  "id": "2"
+ },
+ {
+  "imagen": "",
+  "articulo": "AMIGURUMI GUACAMAYA ",
+  "modelo": "VARIEDAD DE PAJAROS",
+  "precio": "COP $ 30.000"
+  "id": "3"
+ },
+ {
+  "imagen": "AMIGURUMI PAJARITO",
+  "articulo": "PAJARITOS",
+  "modelo": "SON MAS PEQUEÑOS QUE LOS ANTERIORES",
+  "precio": "COP $ 30.000",
+  "id": "4"
+ },
+ {
+  "imagen": "",
+  "articulo": "AMIGURUMI CON MARIPOSAS",
+  "modelo": "ADORNOS ESPECIALES ,",
+  "precio": "COP $ 30.000",
+  "id": "5"
+ },
+ {
+  "imagen": "",
+  "articulo": "AMIGURUMI SOMBRERO",
+  "modelo": "ACCESORIOS VARIOS ",
+  "precio": "COP $ 30.000",
+  "id": "6"
+ },
+ {
+  "imagen": "",
+  "articulo": "SIETE ",
+  "modelo": "SIETE ",
+  "descripcion": "SIETE",
+  "precio": "COP $ 30.000",
+  "id": "7"
+ },
+ {
+  "id": 8,
+  "imagen": "OCHO",
+  "articulo": "OCHO ",
+  "modelo": "OCHO",
+  "precio": "COP $ 30.000"
+ },
+ {
+  "imagen": "",
+  "articulo": "NUEVE ",
+  "modelo": "NUEVE",
+  "descripcion": " NUEVE    ",
+  "precio": "COP $ 30.000",
+  "id": "9"
+ }
+]

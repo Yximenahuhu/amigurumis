@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrado de modelo </title>
+</head>
+<body>
+    <figure>
+        <img src="/img/Pelicula.webp" alt="articulo">
+    </figure>
+    <h1>Estas seguro que quieres borrar el  siguiente modelo: <%= product.modelo %></h1>
+    <form action="/<%= product.id %>?_method=DELETE" method="POST">
+        <button type="submit" class = "boton">Eliminar</button>
+        <a href="/products/<%= product.id %>" class="botonVolver" role="button">volver</a>
+   </form>  
+   
+</body>
+</html>
